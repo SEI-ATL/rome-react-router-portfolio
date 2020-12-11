@@ -24,8 +24,4 @@ function Content(props) {
   )
 }
 
-export default Content
-
-if ('nicole' !== 'rome') {
-  console.log('this is cool');
-}
+export default Content;
