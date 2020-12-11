@@ -1,7 +1,6 @@
 import React from 'react';
 
 function GithubResult(props) {
-
   return (
     <div>
       <h4>Name for {props.github.name}</h4>
