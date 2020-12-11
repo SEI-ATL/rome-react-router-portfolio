@@ -6,6 +6,7 @@ import Blog from './pages/Blog';
 import About from './pages/About';
 import Projects from './pages/Projects';
 import Weather from './pages/Weather';
+import Github from './pages/Github';
 
 function Content(props) {  
   return (
@@ -17,6 +18,7 @@ function Content(props) {
         <Route path="/about" component={About} />
         <Route path="/projects" component={Projects} />
         <Route path="/weather" component={Weather} />
+        <Route path="/github" component={Github} />
       </Switch>
     </main>
   )

@@ -9,6 +9,7 @@ function Header() {
       <a><Link to='/about'>About</Link> </a>
       <a><Link to='/projects'>Projects</Link> </a>
       <a><Link to='/weather'>Weather</Link> </a>
+      <a><Link to='/github'>Github</Link> </a>
     </nav>
   )
 }
